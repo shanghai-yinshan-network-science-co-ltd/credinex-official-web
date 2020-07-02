@@ -96,7 +96,7 @@ export default function () {
             </div>
           </div>
         </section>
-        <section  className={styles.loanSteps}>
+        <section className={styles.loanSteps}>
           <img src={imgStep} alt="" width="75%" />
           <ul>
             <li></li>

@@ -67,7 +67,12 @@ function BasicLayout(props) {
                 ))}
               </ul>
             </div>
-            <div><img src={imgIcons} alt="" width="138" /></div>
+            <div className={styles.imgs}>
+              <a href="https://www.instagram.com/credinex.id/"><div className={styles.ins}/></a>
+              <a href="https://www.facebook.com/CrediNex-105894897846485/"><div className={styles.fb}/></a>
+              <a href="https://twitter.com/CrediNex"><div className={styles.twitter}/></a>
+              <a href="https://www.youtube.com/channel/UCscaK5LncxYkkMyuVOlc-mg"><div className={styles.yutube}/></a>
+            </div>
             <p>Copyright © 2020 PT Digital Yinshan Technology All Rights Reserved</p>
           </div>
           <div className={styles.right}>
