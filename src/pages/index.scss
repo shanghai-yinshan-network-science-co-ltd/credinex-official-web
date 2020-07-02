@@ -18,7 +18,9 @@
     background-size: cover;
     padding: 72px 13% 0;
     .content{
+      overflow: auto;
       padding: 0 4%;
+      display: flex;
       h2{
         font-size: 36px;
         color: #E54CAD;
@@ -31,6 +33,9 @@
       }
       .download{
         margin: 100px 0 68px;
+      }
+      div {
+        width: 100%;
       }
     }
     .msg{
@@ -76,10 +81,12 @@
       }
     }
     .pic{
-      position: absolute;
-      top: 42px;
-      right: 1%;
-      width: 554px;
+      //position: absolute;
+      //top: 42px;
+      //right: 1%;
+      max-width: 554px;
+      max-height: 485px;
+      float: right;
     }
   }
   article{
@@ -96,8 +103,10 @@
   .promotion{
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
     position: relative;
-    padding: 0 17%;
+    //padding: 0 17%;
     z-index: 34;
     p{
       line-height: 1.4;
@@ -221,15 +230,16 @@
           z-index: 20;
           padding: 22px 0;
           h6{
-            width: 162px;
-            font-size: 24px;
+            width: 200px;
+            font-size: 22px;
             text-align: right;
             color: #681AC2;
             line-height: 1.2;
+
             font-family: 'SequelSans-BoldDisp';
           }
           p{
-            padding-left: 20px;
+            padding-left: 30px;
           }
         }
         .tag{

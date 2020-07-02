@@ -56,8 +56,9 @@ export default function () {
             <h2>Credinex – Satu kartu untuk semua!</h2>
             <h2 style={{color: "#fff"}}>gesek tanpa khawatir</h2>
             <p>Lupakan persyaratan bank yang rumit, dapatkan kartumu hanya dengan 4 langkah mudah. Pantau seluruh aktivitas transaksimu dari aplikasi kami. Daftar dan miliki kartu Credinex sekarang!</p>
+            <div className={styles.download}><img src={imgIconGooglePlay} alt="" width="235" /></div>
           </div>
-          <div className={styles.download}><img src={imgIconGooglePlay} alt="" width="235" /></div>
+            <img src={imgPBanner} alt="" className={styles.pic} />
         </div>
         <div className={styles.msg}>
           <h4>Memperkenalkan</h4>
@@ -67,7 +68,6 @@ export default function () {
           <Link to="/Contactus">Pelajari Lebih Lanjut<span>&gt;</span></Link>
           <img src={imgP1Banner} alt="" className={styles.pic1} />
         </div>
-        <img src={imgPBanner} alt="" className={styles.pic} />
       </div>
       <article>
         <section className={styles.promotion}>
