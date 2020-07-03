@@ -57,6 +57,13 @@ function BasicLayout(props) {
                   <strong>E-mail</strong>
                   <span>cs@credinex.id</span>
                 </div>
+                <div>
+                  <strong>PT DIGITAL YINSHAN TECHNOLOGY</strong>
+                  <span className={styles.address}>Capital Place Building, Lantai 47, Suite A, Jl. Jend.
+                    <br/>Gatot Subroto No. Kav. 18, RT 6 RW 1,
+                    <br/>Kelurahan Kuningan Barat, Kecamatan Mampang Prapatan,
+                    <br/>Jakarta 12710, DKI Jakarta</span>
+                </div>
               </div>
               <ul className={styles.nav}>
                 {navs.map((nav, index) => (
