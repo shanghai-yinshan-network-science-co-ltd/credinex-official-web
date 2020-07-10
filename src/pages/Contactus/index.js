@@ -65,7 +65,7 @@ export default function (props) {
           <h5 id="contact6">6.Fees/Charges</h5>
           <p>Bunga harian : 0,3% per hari<br />Biaya kartu : IDR 25,000 (muncul di tagihan bulan pertama)<br />Biaya tahunan : IDR 180,000 (muncul di tagihan bulan pertama)<br />Bunga keterlambatan : 0,4% per hari<br />Biaya denda keterlambatan : 2% dikali outstanding (minimal IDR 20,000)</p>
           <h5 id="contact7">7.Contact details </h5>
-          <p>BD@Credinex.id   CS@Credinex.id<br />Customer care Number - 02139506666</p>
+          <p>BD@Credinex.id   CS@Credinex.id<br />Customer care Number - 021 39506666</p>
         </div>
       </div>
     </div>
