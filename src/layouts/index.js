@@ -51,7 +51,7 @@ function BasicLayout(props) {
               <div>
                 <div>
                   <strong>Hotline Layanan Pelanggan</strong>
-                  <span>021 39506888</span>
+                  <span>021 39506666</span>
                 </div>
                 <div>
                   <strong>E-mail</strong>
