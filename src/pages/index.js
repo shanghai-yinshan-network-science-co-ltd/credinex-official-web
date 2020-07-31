@@ -56,7 +56,7 @@ export default function () {
             <h2>Credinex – Satu kartu untuk semua!</h2>
             <h2 style={{color: "#fff"}}>gesek tanpa khawatir</h2>
             <p>Lupakan persyaratan bank yang rumit, dapatkan kartumu hanya dengan 4 langkah mudah. Pantau seluruh aktivitas transaksimu dari aplikasi kami. Daftar dan miliki kartu Credinex sekarang!</p>
-            <div className={styles.download}><img src={imgIconGooglePlay} alt="" width="235" /></div>
+            <a href={'https://play.google.com/store/apps/details?id=rupiah.dana.cash.uang.pinjam.kredit.tunai.cepat.kilat.kartu.online.loan&hl=es_PA'} className={styles.download}><img src={imgIconGooglePlay} alt="" width="235" /></a>
           </div>
             <img src={imgPBanner} alt="" className={styles.pic} />
         </div>

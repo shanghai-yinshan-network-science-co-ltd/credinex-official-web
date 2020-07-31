@@ -37,7 +37,7 @@ function BasicLayout(props) {
         <div>
           <h4>Tunggu apalagi, Ayo<br />Buruan Download dan mulai Belanja!</h4>
           <p>Gunakan kartumu secara bijak dan bayarlah tagihan tepat waktu untuk tambahan manfaat lainnya</p>
-          <img src={imgIconGooglePlay} alt="" width="235" />
+          <a href={'https://play.google.com/store/apps/details?id=rupiah.dana.cash.uang.pinjam.kredit.tunai.cepat.kilat.kartu.online.loan&hl=es_PA'}><img src={imgIconGooglePlay} alt="" width="235" /></a>
         </div>
       </section>
       <footer>
