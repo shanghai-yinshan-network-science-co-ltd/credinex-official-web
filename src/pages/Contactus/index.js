@@ -18,6 +18,7 @@ export default function (props) {
     { name: <h6>Using Your<br />CrediNex<br />card</h6>, icon: icon5, to: 'contact4' },
     { name: <h6>Fees<br />& Charges</h6>, icon: icon6, to: 'contact6' },
     { name: <h6>Contact<br />Us</h6>, icon: icon7, to: 'contact7' },
+    { name: <h6>Pengaduan <br />Pelanggan</h6>, icon: icon1, to: 'contact8' },
   ];
   const [active, setActive] = useState(0);
 
@@ -33,7 +34,7 @@ export default function (props) {
       <div className={styles.banner}>
         <ul>
           {contacts.map((item, index) => (
-            index < 3 && <li key={index} onClick={() => scrollToAnchor(index, item.to)} className={active === index ? styles.active : ''}>
+            index < 4 && <li key={index} onClick={() => scrollToAnchor(index, item.to)} className={active === index ? styles.active : ''}>
               <div>{item.name}</div>
               <img src={item.icon} alt="" width="56" />
             </li>
@@ -41,7 +42,7 @@ export default function (props) {
         </ul>
         <ul>
           {contacts.map((item, index) => (
-            index >= 3 && <li key={index} onClick={() => scrollToAnchor(index, item.to)} className={active === index ? styles.active : ''}>
+            index >= 4 && <li key={index} onClick={() => scrollToAnchor(index, item.to)} className={active === index ? styles.active : ''}>
               <div>{item.name}</div>
               <img src={item.icon} alt="" width="56" />
             </li>
@@ -66,6 +67,47 @@ export default function (props) {
           <p>Bunga harian : 0,3% per hari<br />Biaya kartu : IDR 25,000 (muncul di tagihan bulan pertama)<br />Biaya tahunan : IDR 180,000 (muncul di tagihan bulan pertama)<br />Bunga keterlambatan : 0,4% per hari<br />Biaya denda keterlambatan : 2% dikali outstanding (minimal IDR 20,000)</p>
           <h5 id="contact7">7.Contact details </h5>
           <p>BD@Credinex.id   CS@Credinex.id<br />Customer care Number - 021 39506666</p>
+          <h5 id="contact8">8.Pengaduan Layanan Pengguna Credinex </h5>
+          <p>PENGADUAN LAYANAN PENGGUNA CREDINEX
+
+            Layanan Pengaduan CrediNex ini dibentuk dan disusun berdasarkan Peraturan Otoritas Jasa Keuangan No.18/POJK.07/2018 tentang Layanan Pengaduan Konsumen di Sektor Jasa Keuangan dan Surat Edaran Otoritas Jasa Keuangan No. 2/SEOJK.07/2014 tentang Pelayanan dan Penyelesaian Pengaduan Konsumen pada Pelaku Usaha Jasa Keuangan.
+            <br/>
+            <br/>
+            CrediNex berkomitmen untuk menjalin hubungan baik dengan Pengguna layanan Kami dan juga memberikan layanan pengaduan terbaik dengan menerapkan prinsip transparansi dan terbuka dalam memberikan informasi kepada Konsumen.
+            <br/>
+            <br/>
+            <h6>1. Penerima Pengaduan</h6>
+            <br/>
+            Setiap Konsumen CrediNex dapat menyampaikan pengaduan melalui beberapa sarana yang telah kami sediakan baik secara lisan seperti telepon ke hotline kami di (021) – 39506666 atau mendatangi langsung kantor operasional CrediNex yang tertera pada halaman Website. Selain itu pengguna CrediNex juga dapat menyampaikan pengaduannya secara lisan melalui Live Chat Aplikasi, E-mail ke csofficial@credinex.id, maupun social media Kami yaitu Facebook: CrediNex, Instagram: CrediNex.Id, Twitter: @CrediNex
+            <br/>
+            <br/>
+            <h6>2. Penanganan Pengaduan</h6>
+            <br/>
+            Setelah pengaduan Konsumen Kami terima, tim Customer Service Kami akan memberikan respon dan nomor laporan aduan (jika melibatkan divisi internal lainnya) yaitu:
+
+            <br/>
+            <br/>
+            Hari Kerja : Senin s/d Jum’at pukul 08.00 WIB hingga 20.00 WIB
+            <br/>
+            Hari Libur : Sabtu dan Minggu pukul 08.00 WIB hingga 17.00 WIB
+            <br/>
+            <br/>
+
+            Tim Customer Service Kami akan memberikan respon selambat-lambatnya 5 (lima) Hari Kerja setelah aduan diterima.
+            <br/>
+            <br/>
+
+            <h6> 3. Penyelesaian Pengaduan</h6>
+            <br/>
+
+            Tim Customer Service CrediNex dapat secara langsung melakukan penyelesaian terhadap aduan Konsumen apabila data dan informasi yang diterima telah akurat dan benar. Terhadap aduan tersebut dapat diberikan solusi secara langsung tanpa melibatkan divisi internal lainnya sejak pengaduan diterima. Jika pengaduan melibatkan divisi internal lainnya atau pihak ketiga, CrediNex membutuhkan waktu penyelesaian pengaduan Konsumen selambat-lambatnya dalam jangka waktu 20 (dua puluh) Hari Kerja atau lebih tergantung pada tingkat kompleksitas pengaduan Konsumen.
+            <br/>
+            <br/>
+
+            <h6>4. Pelaporan Pengaduan ke OJK</h6>
+            <br/>
+
+            CrediNex secara berkala melakukan Pelaporan Pengaduan Konsumen ke Otoritas Jasa Keuangan sebagai bentuk pertanggungjawaban penyedia layanan pengaduan konsumen disertai dengan status pengaduan, jenis pengaduan dan penyebab pengaduan untuk periode bulanan dan triwulan yang formatnya sudah ditentukan oleh Otoritas Jasa Keuangan.</p>
         </div>
       </div>
     </div>
