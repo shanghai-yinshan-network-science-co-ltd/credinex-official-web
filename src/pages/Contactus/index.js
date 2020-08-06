@@ -8,6 +8,7 @@ import icon4 from '../../assets/icon-contact4.png';
 import icon5 from '../../assets/icon-contact5.png';
 import icon6 from '../../assets/icon-contact6.png';
 import icon7 from '../../assets/icon-contact7.png';
+import icon8 from '../../assets/icon-contact8.png';
 
 export default function (props) {
   const contacts = [
@@ -18,7 +19,7 @@ export default function (props) {
     { name: <h6>Using Your<br />CrediNex<br />card</h6>, icon: icon5, to: 'contact4' },
     { name: <h6>Fees<br />& Charges</h6>, icon: icon6, to: 'contact6' },
     { name: <h6>Contact<br />Us</h6>, icon: icon7, to: 'contact7' },
-    { name: <h6>Pengaduan <br />Pelanggan</h6>, icon: icon1, to: 'contact8' },
+    { name: <h6>Pengaduan <br />Pelanggan</h6>, icon: icon8, to: 'contact8' },
   ];
   const [active, setActive] = useState(0);
 
