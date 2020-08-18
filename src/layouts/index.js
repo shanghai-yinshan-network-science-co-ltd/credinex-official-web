@@ -55,7 +55,7 @@ function BasicLayout(props) {
                 </div>
                 <div>
                   <strong>E-mail</strong>
-                  <span>cs@credinex.id</span>
+                  <span>csofficial@credinex.id</span>
                 </div>
                 <div>
                   <strong>PT DIGITAL YINSHAN TECHNOLOGY</strong>
