@@ -1,0 +1,86 @@
+.contactus {
+  .banner{
+    display: flex;
+    position: relative;
+    width: 100%;
+    background: url("../../assets/contact-banner.png") no-repeat bottom center;
+    background-size: cover;
+    padding: 110px 0 0;
+    justify-content: center;
+    ul{
+      padding-right: 26px;
+      li:hover{
+        cursor: pointer;
+      }
+      li{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        width: 220px;
+        height: 115px;
+        background: #FFFFFF;
+        box-shadow: 2px 4px 50px 0 rgba(104,26,194,0.25);
+        border-radius: 25px 0 25px 100px;
+        padding: 0 24px;
+        color: #E54CAD;
+        text-align: right;
+        h6{
+          font-family: "SequelSans-BoldDisp";
+        }
+        img{
+          margin-left: 10px;
+        }
+        & + li{
+          margin-top: 26px;
+        }
+        &::before{
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 105px;
+          height: 8px;
+          background: #E549AD;
+        }
+        &.active{
+          box-shadow: 2px 2px 25px 0 #E2CCE9;
+          h6{
+            color: #9A00CE;
+          }
+          &::before{
+            background: #9A00CE;
+          }
+          background: #FFFFFF;
+        }
+      }
+    }
+    .msg{
+      width: 80%;
+      background: #FFFFFF;
+      box-shadow: 2px 4px 50px 0 rgba(104,26,194,0.25);
+      border-radius: 25px;
+      padding: 60px 56px 114px;
+      margin-left: 22px;
+      h5{
+        font-family: 'SequelSans-MediumBody';
+        font-size: 24px;
+        color: #9A00CE;
+        margin-top: 20px;
+        &:first-child{
+          margin: 0;
+        }
+      }
+      h6 {
+        color: #9A00CE;
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      p{
+        padding-top: 20px;
+        line-height: 1.2;
+      }
+    }
+  }
+}

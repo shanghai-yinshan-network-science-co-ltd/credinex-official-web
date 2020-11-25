@@ -15,6 +15,7 @@ function BasicLayout(props) {
     { name: 'Home', to: '/' },
     { name: 'Tentang Kami', to: '/Aboutus' },
     { name: 'Support', to: '/Contactus' },
+    { name: 'Layanan Pengaduan', to: '/complaints-service' },
   ];
   const { location } = props;
   return (
