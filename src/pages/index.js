@@ -126,10 +126,10 @@ export default function() {
             Kartu <span> Pembayaran berbasis aplikasi digital</span>
           </h4>
           <p>
-            Dengan menggabungkan fasilitas pinjaman pada kartu debit, kami menghilangkan persyaratan
-            rumit dari bank, membuat akses pinjaman menjadi lebih mudah dan menjangkau lebih luas.
+            Dengan menggabungkan fasilitas pinjaman pada Kartu CrediNex, Kami menghilangkan
+            persyaratan rumit dari bank, membuat akses pinjaman menjadi lebih mudah dan terjangkau.
             Yuk buat kartumu hanya dengan beberapa langkah mudah dan bersiaplah mendapatkan kartu
-            debit prabayar pertamamu yang akan kami antar sampai depan pagar rumah.
+            CrediNex pertamamu yang akan Kami antar sampai depan pagar rumahmu.
           </p>
           <Link to="/Contactus">
             Pelajari Lebih Lanjut<span>&gt;</span>
